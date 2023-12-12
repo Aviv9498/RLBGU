@@ -12,3 +12,7 @@ NN's are computed with tensorflow
 with policy gradient methods. We will first implement the basic REINFORCE
 algorithm and then transform it to REINFORCE with baseline and an Actor-Critic algorithm.
 we again solve gymnasium's "CartPole-v1" environment
+
+- In assignment 3 we take the REINFORCE algorithm we implemented in hw2 and apply it to solve "CartPole-v1" ,"MountainCarContinuoues-v0"
+  and "Acrobot-v1". Then, after the models are trained, We try and see how Fine tuning can help improve preformeace.
+  We take the trained model for one env, freeze the output layer and than train it on another env and check how different it is than the original training. 
